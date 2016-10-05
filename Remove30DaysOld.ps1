@@ -1,1 +1,0 @@
-﻿Get-ChildItem -Path "\\server\folder" -Recurse | Where-Object LastWriteTime -LT (Get-Date).AddDays(-30) | Remove-Item -Force
